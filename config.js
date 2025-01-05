@@ -12,7 +12,7 @@ global.allowJids= process.env.ALLOW_JID || "null"
 global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
 
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Lusaka";
 global.github=process.env.GITHUB|| "https://github.com/Emperordagoat/Asta-Md";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaPGt3QEwEjpBXT4Rv0z";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaPGt3QEwEjpBXT4Rv0z" ; 
@@ -21,9 +21,9 @@ global.caption = process.env.CAPTION || global.caption || "αѕтα-м∂ 2024"
 global.BUTTONS = process.env.BUTTONS || process.env.MENU_BTN || "1";
 
 
-global.devs = "2348039607375"
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "2348039607375";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2348039607375";
+global.devs = "260776642930"
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "260760431115";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "260776642930";
 global.style = process.env.STYLE   || '2'
 global.flush = process.env.FLUSH   || "false"; 
 global.gdbye = process.env.GOODBYE || "false"; 
@@ -44,7 +44,7 @@ global.readmessage = process.env.READ_MESSAGE || "false"
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "2348039607375";
 
 
-global.read_status = process.env.AUTO_READ_STATUS || "false"
+global.read_status = process.env.AUTO_READ_STATUS || "true"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "2348039607375";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "2348039607375";
@@ -60,15 +60,15 @@ module.exports = {
 
   menu: process.env.MENU || "", 
 
-  HANDLERS: process.env.PREFIX  || "/",
+  HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "3.0.0",
   caption : global.caption || "αѕтα-м∂ 2024" , 
  
-  author : process.env.PACK_AUTHER|| "αѕтяσ",
-  packname: process.env.PACK_NAME || "αѕтяσ",
+  author : process.env.PACK_AUTHER|| "Nipsy's",
+  packname: process.env.PACK_NAME || "Creatio",
   botname : process.env.BOT_NAME  || "ᴀsᴛᴀ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "αѕтяσ",
+  ownername:process.env.OWNER_NAME|| "Ni Pu Si",
   errorChat : process.env.ERROR_CHAT || "",
   KOYEB_API : process.env.KOYEB_API  || "false",
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "",
